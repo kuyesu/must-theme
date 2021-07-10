@@ -9,6 +9,8 @@ To avoid modifying the original system files, I suggest that you create a new th
 The most important elements of the theme come from the file /edx/app/edxapp/edx-platform/themes/red-theme/lms/static/sass/partials/lms/theme/_variables.scss. This file actually originates from Bootstrap and is used exclusively for overriding Bootstrap theme variables. I highly encourage you to Get Acquainted with Bootstrap Theming as this will save you countless hours of pain and struggle.
 The Red Theme file _variable.scss is intended to be used to override any of the dozens of variables assigned in /edx/app/edxapp/edx-platform/lms/static/sass/partials/lms/theme/_variables-v1.scss.
 The edX designers packaged their base Open edX Bootstrap theme into a Node NPM package which contains the more important variable declarations and assignments. The node package is located here: /edx/app/edxapp/edx-platform/node_modules/@edx/edx-bootstrap/sass/open-edx, and its only two files are _variables.scss and _theme.scss. If you’re trying to change theme colors then this file contains all of the salient variable names and their default values. Here is a snapshot of the contents of this file beginning around row 65:
+
+
 <img width="640" alt="bootstrap-edx-theme-variables" src="https://user-images.githubusercontent.com/69388140/125160461-f76edf00-e14a-11eb-94d2-b578de2f7849.png">
 
 # Example 2: Add a Custom Image or Graphic to a Page
